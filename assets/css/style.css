@@ -1,0 +1,400 @@
+                /*public*/
+                
+                @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                ul {
+                    list-style-type: none;
+                }
+                
+                body {
+                    background-color: white;
+                    font-family: 'Alegreya Sans', sans-serif;
+                    font-weight: 400;
+                }
+                /*header-section*/
+                
+                .header {
+                    background-image: url('../img/shutterstock_277750193.jpg');
+                    height: 100vh;
+                    background-size: cover;
+                    text-align: center;
+                    overflow: hidden;
+                }
+                
+                .navbar .logo {
+                    float: left;
+                    width: 40%;
+                }
+                
+                .navbar .nav {
+                    float: left;
+                    width: 60%;
+                }
+                
+                .navbar {
+                    overflow: hidden;
+                }
+                
+                .navbar .logo img {
+                    width: 25%;
+                }
+                
+                a {
+                    text-decoration: none;
+                }
+                
+                .navbar .nav .list-item {
+                    display: inline-block;
+                }
+                
+                .navbar {
+                    margin-top: 50px;
+                }
+                
+                .nav .list-item a {
+                    color: white;
+                    font-size: 20px;
+                    margin-right: 20px;
+                }
+                
+                .header-content {
+                    margin-top: 90px;
+                    color: white;
+                }
+                
+                .header-content img {
+                    width: 20%;
+                }
+                
+                .header-content h1 {
+                    font-size: 75px;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                }
+                
+                .header-content p {
+                    font-family: 'Dancing Script', cursive;
+                    margin-bottom: 30px;
+                    font-size: 40px;
+                }
+                
+                .header-content button {
+                    padding: 15px 30px;
+                    border: none;
+                    font-size: 20px;
+                }
+                
+                .btn-learn {
+                    background-color: #c1ab84;
+                    color: #fff;
+                    margin-right: 10px;
+                }
+                
+                .btn-learn:hover {
+                    color: #000;
+                    background-color: #fff;
+                    cursor: pointer;
+                }
+                
+                .overlay {
+                    background-color: rgb(0, 0, 0, 0.5);
+                    width: 100%;
+                    height: 100vh;
+                    position: absolute;
+                }
+                
+                .header {
+                    position: relative;
+                }
+                /*about section*/
+                
+                .about-img {
+                    float: left;
+                    width: 40%;
+                }
+                
+                .about-content {
+                    float: left;
+                    width: 60%;
+                    margin-top: 100px;
+                    text-align: center;
+                }
+                
+                .clr-fix {
+                    clear: both;
+                }
+                
+                .about-img img {
+                    width: 100%;
+                }
+                
+                .about-content h2 {
+                    font-size: 30px;
+                    font-weight: 400;
+                    color: #253048;
+                    margin-bottom: 20px;
+                }
+                
+                .about-content h3 {
+                    font-family: 'Dancing Script', cursive;
+                    color: #c1ab84;
+                    margin-bottom: 20px;
+                }
+                
+                .about-content p {
+                    width: 75%;
+                    margin: auto;
+                    text-align: left;
+                    line-height: 20px;
+                    margin-bottom: 10px;
+                }
+                
+                .about-content ul li {
+                    margin: auto;
+                    width: 75%;
+                    text-align: left;
+                }
+                
+                .about-content ul li i {
+                    background-color: rgb(193, 171, 132);
+                    color: #fff;
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    box-sizing: border-box;
+                    margin-top: 20px;
+                    font-size: 15px;
+                    text-align: center;
+                }
+                
+                .about-content ul li span {
+                    margin-left: 20px;
+                }
+                /*reviwers section*/
+                
+                .reviwers-img img {
+                    width: 100%;
+                }
+                
+                .conteneer {
+                    width: 70%;
+                    margin: auto;
+                }
+                
+                .reviwers,
+                .location {
+                    background-color: #f8f8f8;
+                    margin-top: 80px;
+                }
+                
+                .reviwe-description,
+                .location-description {
+                    float: left;
+                    width: 60%;
+                }
+                
+                .reviwers-img,
+                .location-img {
+                    float: left;
+                    width: 40%;
+                }
+                
+                .reviwe-description h2,
+                .location-description h2 {
+                    color: rgb(37, 48, 72);
+                    font-size: 36px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                }
+                
+                .reviwe-description h3 {
+                    font-family: 'Dancing Script', cursive;
+                    font-weight: 400;
+                    margin-bottom: 30px;
+                    color: #c1ab84;
+                }
+                
+                .reviwe-description p,
+                .location-description p {
+                    width: 70%;
+                    line-height: 30px;
+                    margin-bottom: 20px;
+                }
+                
+                .reviwe-description i,
+                .location-description i {
+                    margin-bottom: 20px;
+                    margin-right: 20px;
+                }
+                /* start cover*/
+                
+                .cover {
+                    background-image: url("../img/shutterstock_280369721.jpg");
+                    padding-top: 250px;
+                    padding-bottom: 250px;
+                    background-size: cover;
+                    background-attachment: fixed;
+                }
+                /*menu*/
+                
+                .menue {
+                    text-align: center;
+                    margin-bottom: 70px;
+                }
+                
+                .menue h2 {
+                    font-weight: 400;
+                    font-size: 36px;
+                    margin-bottom: 10px;
+                }
+                
+                .menue.sub-heading {
+                    font-family: 'Dancing Script', cursive;
+                    color: #c1ab84;
+                    font-weight: 400;
+                    font-size: 28px;
+                    margin-bottom: 10px;
+                }
+                
+                .menu-content .item {
+                    float: left;
+                    width: 33.3%;
+                }
+                
+                .menu-content img {
+                    width: 80%;
+                }
+                
+                .menu-content .item h3 {
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                
+                .menu-content .item p {
+                    width: 70%;
+                    margin: auto;
+                    margin-bottom: 30px;
+                    line-height: 30px;
+                }
+                
+                .menu-content a {
+                    background-color: #c1ab84;
+                    color: #fff;
+                    display: inline-block;
+                    margin-top: 30px;
+                    padding: 20px;
+                    border-radius: 10px;
+                }
+                /*location section*/
+                
+                .location-img img {
+                    width: 80%;
+                }
+                
+                .location i {
+                    color: #fff;
+                    background-color: #c1ab84;
+                    padding: 10px;
+                    border-radius: 50%;
+                }
+                /*fotter*/
+                
+                .footer {
+                    background-color: #403d38;
+                    color: #fff;
+                    padding-top: 30px;
+                }
+                
+                .footer .item {
+                    float: left;
+                    width: 25%;
+                }
+                
+                .footer-content {
+                    overflow: hidden;
+                }
+                
+                .footer .item h2 {
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-bottom: 30px;
+                }
+                
+                .footer .item p {
+                    color: #969696;
+                    font-size: 14px;
+                    font-weight: 400;
+                    width: 85%;
+                }
+                
+                .footer .item a {
+                    color: #969696;
+                    margin-bottom: 20px;
+                    display: inline-block;
+                    font-size: 14px;
+                }
+                
+                .footer .item a:hover {
+                    color: #fff
+                }
+                
+                .footer .item .content {
+                    color: #969696;
+                    margin-bottom: 20px;
+                    display: inline-block;
+                    font-size: 14px;
+                }
+                
+                .footer .item .content li {
+                    margin-bottom: 20px;
+                }
+                
+                .footer .item .content li i {
+                    margin-right: 20px;
+                }
+                
+                .footer .footer-second {
+                    background-color: #353330;
+                    text-align: center;
+                    padding-top: 20px;
+                    padding-bottom: 50px;
+                }
+                
+                .footer .footer-second p {
+                    color: #969696;
+                    font-size: 14px;
+                    width: 17%;
+                    margin: auto;
+                }
+                
+                .footer .footer-second .icons {
+                    margin-top: 30px;
+                }
+                
+                .footer .footer-second .icons i {
+                    margin-right: 10px;
+                    padding: 20px;
+                    color: #969696;
+                    background-color: #484540;
+                    border-radius: 50%;
+                }
+                
+                .footer .footer-second .icons i:hover {
+                    color: #fff;
+                    background-color: #3b5998;
+                }
+                
+                .footer .item a::before {
+                    content: '>';
+                    margin-right: 10px;
+                    font-size: 14px;
+                }
